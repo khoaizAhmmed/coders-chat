@@ -1,0 +1,16 @@
+{
+  "name": "jsdev-talks",
+  "version": "1.0.0",
+  "description": "this is javascript developers chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "chat-app",
+    "chat",
+    "jsdev-talks"
+  ],
+  "author": "khoaiz\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cshaikh khoaiz ahmmed",
+  "license": "ISC"
+}
