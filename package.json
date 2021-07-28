@@ -4,13 +4,32 @@
   "description": "this is javascript developers chat application",
   "main": "app.js",
   "scripts": {
-    "test": "start"
+    "start": "NODE_ENV=development nodemon app.js",
+    "production": "NODE_ENV=production node app.js"
   },
   "keywords": [
     "chat-app",
     "chat",
     "jsdev-talks"
   ],
-  "author": "khoaiz\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cshaikh khoaiz ahmmed",
-  "license": "ISC"
+  "author": "khoaiz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.12"
+  }
 }
