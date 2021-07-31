@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }))
 app.set('view engine', 'ejs')
 
 // set public folder
-app.use(express.static(path.join(`${__dirname},'public'`)))
+app.use(express.static(path.join(__dirname, 'public')))
 
 // parser cookies
 app.use(cookieParser(process.env.COOKIE_SECRET))

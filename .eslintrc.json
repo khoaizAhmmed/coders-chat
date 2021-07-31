@@ -6,7 +6,8 @@
   },
   "extends": "airbnb-base", // to use airbnb-base as eslint config
   "rules": {
-      "semi": "off" // to turn off the semicolon lint
+      "semi": "off", // to turn off the semicolon lint
+      "no-unused-vars": ["error",   { "args": "none" } ]
 
   }
 }
