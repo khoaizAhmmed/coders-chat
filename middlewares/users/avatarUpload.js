@@ -6,7 +6,7 @@ function avatarUpload(req, res, next) {
   upload.any()(req, res, (err) => {
     if (err) {
       res.status(500).json({
-        error: {
+        errors: {
           avatar: {
             msg: err.message,
           },

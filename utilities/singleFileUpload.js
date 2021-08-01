@@ -12,8 +12,11 @@ function uploader(
   const UploadFolder = `${__dirname}/../public/uploads/${subFolderPath}`
 
   const storage = multer.diskStorage({
-    destination: (req, file, cb) => { cb(null, UploadFolder) },
-    fileName: (req, file, cb) => {
+    destination: (req, file, cb) => {
+      cb(null, UploadFolder)
+    },
+
+    filename: (req, file, cb) => {
       const fileExt = path.extname(file.originalname)
       const fileName = `${file.originalname.replace(fileExt, '')
         .toLowerCase()
